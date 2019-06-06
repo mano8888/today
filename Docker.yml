@@ -22,6 +22,6 @@ Resource types:
                                   url: git url=======================
                                   acess: private ssh-key
                                 - task: verify every 1m pull request
-                                  type: docker-image
+                   sdfgsdg               type: docker-image
 wtach thesej
 
