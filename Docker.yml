@@ -23,5 +23,5 @@ Resource types:
                                   acess: private ssh-key
                                 - task: verify every 1m pull request
                                   type: docker-image
-wtach these
+wtach thesej
 
