@@ -8,3 +8,4 @@ deploy:deploy-file
 -Drepository=nexus
 -Durl=https://nexus-tb.month.com/repository/some-today-pro
 -Dfile:1.0-SNAPSHOT.war
+sdkjv
