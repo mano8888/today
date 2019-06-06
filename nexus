@@ -3,6 +3,7 @@ deploy:deploy-file
 -DgroupId=com.month
 -DartifactId=month
 -Dversion=1.0-SNAPSHOT
+nesus
 -DgeneratePom=false
 -Dpackaging=war
 -Drepository=nexus
