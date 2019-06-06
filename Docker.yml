@@ -1,0 +1,27 @@
+Resource types:
+- name: pull request
+  type: docker-image
+
+  source:
+          - repository: mano8888/mynewdoc
+
+          - name: Docker-image
+            type: details     
+
+            source:
+                    - repository: docker-hub url present here
+                       username:mano8888
+                       password:manu@1406
+                      webhook_token: some sha-code
+                      source:
+                              - repository: docker-hub url
+                                acess-token: some acess token
+                                v3-point: https://github.com/mano8888/v3-point
+                                v4-point: https://github.com/mano8888/v4-point
+                                - repo: git 
+                                  url: git url=========================
+                                  acess: private ssh-key
+                                - task: verify every 1m pull request
+                                  type: docker-image
+
+
