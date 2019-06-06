@@ -19,7 +19,7 @@ Resource types:
                                 v3-point: https://github.com/mano8888/v3-point
                                 v4-point: https://github.com/mano8888/v4-point
                                 - repo: git 
-                                  url: git url=========================
+                                  url: git url=======================
                                   acess: private ssh-key
                                 - task: verify every 1m pull request
                                   type: docker-image
