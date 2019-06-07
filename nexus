@@ -5,6 +5,8 @@ deploy:deploy-file
 -Dversion=1.0-SNAPSHOT
 -DgeneratePom=false
 -Dpackaging=war
+editing
+thid
 -Drepository=nexus
 -Durl=https://nexus-tb.month.com/repository/some-today-pro
 -Dfile:1.0-SNAPSHOT.war
