@@ -5,9 +5,9 @@ sleep 2;
 for i in `seq $cont_count`
 do
 	echo "=============================="
-    echo "Creating www.day$i container.."
+    echo "Creating www.gamutkart$i container.."
     sleep 1
-   sudo docker run --name www.day$i -d -it --rm mano8888/mydoc /bin/bash
-    echo "www.day$i container has been created!"
+   sudo docker run --name www.gamutkart$i -d -it --rm nageshvkn/node3 /bin/bash
+    echo "www.gamutkart$i container has been created!"
 	echo "=============================="
 done
