@@ -1,0 +1,24 @@
+- resouce-types:
+        - name: pull request
+          type: docker-image
+
+        source: 
+        - repository: mano8888/my-newdoc
+
+        - name: docke-hub
+          type: docker-image
+
+          source: 
+          - repository: https://docker-hub/mano8888/mydoc
+            
+          - name: docker-image
+            type: details
+
+            user-name: mano8888
+            password: manu@1406
+            checkout: every 1m
+            webhook: some github-token
+
+
+            add github also:wq!
+

@@ -3,8 +3,11 @@ deploy:deploy-file
 -DgroupId=com.month
 -DartifactId=month
 -Dversion=1.0-SNAPSHOT
--DgeneratePom=false
 -Dpackaging=war
+-DgeneratePom=false
+-Drepository=nexus
+-Durl=https://nexus-tb.month.com/repository/some-june
+-Dfile=1.0-SNAPSHOT.war
 editword
 ,sfsnb
 thid
@@ -12,3 +15,4 @@ thid
 -Durl=https://nexus-tb.month.com/repository/some-today-pro
 -Dfile:1.0-SNAPSHOT.war
 sdkjv
+
